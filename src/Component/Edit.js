@@ -17,12 +17,12 @@ function Edit({ seriedata ,setSeriedata,titre,descrip,url,rate,id}){
     return(
         <div>
      <Button variant="dark" onClick={handleShow}>
-        Edit Film
+        Edit Serie
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Add Movie</Modal.Title>
+          <Modal.Title>Add Serie</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <Form>
